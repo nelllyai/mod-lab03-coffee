@@ -9,7 +9,7 @@ using std::endl;
 
 int main() {
     Automata machine;
-    
+
     machine.getMenu();
 
     machine.on();
@@ -24,9 +24,8 @@ int main() {
     if (machine.check()) {
         machine.cook();
         cout << "The drink is being prepared!" << endl;
-    }
-    else {
-        cout << "Take the money and try again! Returned " << machine.cancel() << " rub" << endl;
+    } else {
+        cout << "Take the money and try again! Returned " << machine.cancel() << endl;
     }
 
     cout << "Your change: " << machine.finish() << endl;
