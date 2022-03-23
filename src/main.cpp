@@ -33,4 +33,6 @@ int main() {
 
     machine.off();
     cout << "The hot drinks machine is off!" << endl;
+
+    return 0;
 }
