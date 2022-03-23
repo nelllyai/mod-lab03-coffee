@@ -55,7 +55,7 @@ TEST(task6, test6) {
     newAutomata.choice(3);
     newAutomata.cook();
     newAutomata.finish();
-    newAutomata.off()
+    newAutomata.off();
     states result = newAutomata.getState();
     EXPECT_EQ(OFF, result);
 }
