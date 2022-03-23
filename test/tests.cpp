@@ -48,7 +48,7 @@ TEST(task5, test5) {
     EXPECT_EQ(WAIT, result);
 }
 
-TEST(taskA, test6) {
+TEST(task6, test6) {
     Automata newAutomata = Automata();
     newAutomata.on();
     newAutomata.coin(200);
