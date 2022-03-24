@@ -25,7 +25,7 @@ int main() {
         machine.cook();
         cout << "The drink is being prepared!" << endl;
     } else {
-        cout << "Take the money and try again! Returned " << machine.cancel() << endl;
+        cout << "Try again! Returned " << machine.cancel() << endl;
     }
 
     cout << "Your change: " << machine.finish() << endl;
